@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Tarea2_5</string>
+    <string name="LanzarNavegador">LANZAR NAVEGADOR</string>
+    <string name="lanzarContacto">LLAMAR A UN CONTACTO</string>
+    <string name="MarcarTelefono">MARCAR UN TELEFONO</string>
+    <string name="mostrarMapa">MOSTRAR MAPA</string>
+    <string name="BuscarEnMapa">BUSCAR EN MAPA</string>
+    <string name="TomarFoto">TOMAR FOTO</string>
+    <string name="BuscarContactos">BUSCAR CONTACTOS</string>
 </resources>

@@ -6,13 +6,65 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
 
+        <Button
+            android:id="@+id/btnLanzarNavegador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/LanzarNavegador" />
+
+        <Button
+            android:id="@+id/btnLanzarContacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lanzarContacto" />
+
+        <Button
+            android:id="@+id/btnMarcarTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/LanzarNavegador" />
+
+        <Button
+            android:id="@+id/btnMostrarMapa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mostrarMapa" />
+
+        <Button
+            android:id="@+id/btnBuscarMapa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/BuscarEnMapa" />
+
+        <Button
+            android:id="@+id/btnTomarFoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TomarFoto" />
+
+        <Button
+            android:id="@+id/btnBuscarContactos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/BuscarContactos" />
+
+        <TextView
+            android:id="@+id/txtMostrar"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
